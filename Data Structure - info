@@ -1,0 +1,21 @@
+Date Structures are divided into two parts:
+
+1) LINEAR
+=========
+
+a) Arrays
+b) Linked list
+c) Stacks
+d) Queues
+e) Hash Tables
+-------------------------------------------------------------------------------------------
+
+2) NON - LINEAR
+================
+
+a) Trees
+b) Binary Search Trees
+c) Heaps
+d) Graphs
+e) Trie
+f) Inion-find
