@@ -4,9 +4,10 @@ public class BubbleSort {
 
 		int temp = 0;
 		int[] nums = { 26, 4, 6, 1 };
+		int arrayLength = nums.length;
 
-		for (int i = 0; i < nums.length; i++) {
-			for (int j = 1; j < (nums.length - i); j++) {
+		for (int i = 0; i < arrayLength; i++) {
+			for (int j = 1; j < (arrayLength - i); j++) {
 				if (nums[j - 1] > nums[j]) {
 					temp = nums[j - 1];
 					nums[j - 1] = nums[j];
@@ -15,7 +16,7 @@ public class BubbleSort {
 			}
 		}
 
-		for (int i = 0; i < nums.length; i++) {
+		for (int i = 0; i < arrayLength; i++) {
 			System.out.println(nums[i]);
 		}
 	}
